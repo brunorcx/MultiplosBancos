@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using FormularioGrafica.MongoDB;
+
 namespace FormularioGrafica {
 
     public partial class Form1 : Form {
@@ -110,10 +112,13 @@ namespace FormularioGrafica {
             //panelSelect.Top = button4.Top;
 
             //Esconder userControls(páginas)
-            pagina11.Hide();
-            pagina21.Hide();
-            pagina31.Hide();
-            pagina41.Show();
+            //pagina11.Hide();
+            //pagina21.Hide();
+            //pagina31.Hide();
+            this.Dispose();
+            Form1Mongo form1Mongo = new Form1Mongo();
+            form1Mongo.Show();
+            form1Mongo.ConectarBanco();
 
             //Troca a cor dos icones
             button1.Image = Properties.Resources.online_store_30px_dark;
