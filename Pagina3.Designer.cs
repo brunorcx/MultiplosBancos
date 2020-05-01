@@ -23,10 +23,10 @@
         /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent() {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxTamanhoYRegistro = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -94,13 +94,13 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label4.Location = new System.Drawing.Point(225, 122);
+            this.label4.Location = new System.Drawing.Point(230, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 19);
             this.label4.TabIndex = 89;
             this.label4.Text = "Tamanho:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxTamanhoXRegistro
             // 
@@ -114,13 +114,13 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label6.Location = new System.Drawing.Point(15, 122);
+            this.label6.Location = new System.Drawing.Point(40, 119);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 19);
             this.label6.TabIndex = 87;
             this.label6.Text = "Preço:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxPrecoRegistro
             // 
@@ -134,13 +134,13 @@
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label8.Location = new System.Drawing.Point(15, 74);
+            this.label8.Location = new System.Drawing.Point(36, 74);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 19);
             this.label8.TabIndex = 85;
             this.label8.Text = "Nome:";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNomeRegistro
             // 
@@ -207,52 +207,52 @@
             // 
             this.dataGridTabelaServicos.AllowUserToAddRows = false;
             this.dataGridTabelaServicos.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Wheat;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.dataGridTabelaServicos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Wheat;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.dataGridTabelaServicos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridTabelaServicos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridTabelaServicos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridTabelaServicos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.dataGridTabelaServicos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.DarkGreen;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Constantia", 12F);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridTabelaServicos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.DarkGreen;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Constantia", 12F);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridTabelaServicos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridTabelaServicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridTabelaServicos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            dataGridViewCellStyle15.NullValue = "Algo";
-            dataGridViewCellStyle15.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridTabelaServicos.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle19.NullValue = "Algo";
+            dataGridViewCellStyle19.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridTabelaServicos.DefaultCellStyle = dataGridViewCellStyle19;
             this.dataGridTabelaServicos.EnableHeadersVisualStyles = false;
             this.dataGridTabelaServicos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
             this.dataGridTabelaServicos.Location = new System.Drawing.Point(98, 193);
             this.dataGridTabelaServicos.Name = "dataGridTabelaServicos";
             this.dataGridTabelaServicos.ReadOnly = true;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.DarkGreen;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridTabelaServicos.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.DarkGreen;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridTabelaServicos.RowHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.dataGridTabelaServicos.RowTemplate.Height = 25;
             this.dataGridTabelaServicos.Size = new System.Drawing.Size(536, 150);
             this.dataGridTabelaServicos.TabIndex = 100;
@@ -306,13 +306,13 @@
             // 
             // labelNovoTamanho
             // 
-            this.labelNovoTamanho.AutoSize = true;
             this.labelNovoTamanho.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoTamanho.Location = new System.Drawing.Point(225, 310);
+            this.labelNovoTamanho.Location = new System.Drawing.Point(230, 310);
             this.labelNovoTamanho.Name = "labelNovoTamanho";
             this.labelNovoTamanho.Size = new System.Drawing.Size(79, 19);
             this.labelNovoTamanho.TabIndex = 106;
             this.labelNovoTamanho.Text = "Tamanho:";
+            this.labelNovoTamanho.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNTamanhoX
             // 
@@ -326,13 +326,13 @@
             // 
             // labelNovoPreco
             // 
-            this.labelNovoPreco.AutoSize = true;
             this.labelNovoPreco.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoPreco.Location = new System.Drawing.Point(15, 310);
+            this.labelNovoPreco.Location = new System.Drawing.Point(40, 310);
             this.labelNovoPreco.Name = "labelNovoPreco";
             this.labelNovoPreco.Size = new System.Drawing.Size(52, 19);
             this.labelNovoPreco.TabIndex = 104;
             this.labelNovoPreco.Text = "Preço:";
+            this.labelNovoPreco.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNovoPreco
             // 
@@ -346,13 +346,13 @@
             // 
             // labelNovoNome
             // 
-            this.labelNovoNome.AutoSize = true;
             this.labelNovoNome.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoNome.Location = new System.Drawing.Point(15, 262);
+            this.labelNovoNome.Location = new System.Drawing.Point(36, 262);
             this.labelNovoNome.Name = "labelNovoNome";
             this.labelNovoNome.Size = new System.Drawing.Size(56, 19);
             this.labelNovoNome.TabIndex = 102;
             this.labelNovoNome.Text = "Nome:";
+            this.labelNovoNome.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNovoNome
             // 

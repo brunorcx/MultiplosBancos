@@ -115,7 +115,7 @@
             // 
             this.checkBoxCAplicacao.AutoSize = true;
             this.checkBoxCAplicacao.Font = new System.Drawing.Font("Constantia", 12F);
-            this.checkBoxCAplicacao.Location = new System.Drawing.Point(18, 303);
+            this.checkBoxCAplicacao.Location = new System.Drawing.Point(25, 303);
             this.checkBoxCAplicacao.Name = "checkBoxCAplicacao";
             this.checkBoxCAplicacao.Size = new System.Drawing.Size(134, 23);
             this.checkBoxCAplicacao.TabIndex = 59;
@@ -126,7 +126,7 @@
             // 
             this.labelSomaTotal.AutoSize = true;
             this.labelSomaTotal.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelSomaTotal.Location = new System.Drawing.Point(14, 364);
+            this.labelSomaTotal.Location = new System.Drawing.Point(21, 364);
             this.labelSomaTotal.Name = "labelSomaTotal";
             this.labelSomaTotal.Size = new System.Drawing.Size(119, 19);
             this.labelSomaTotal.TabIndex = 58;
@@ -135,7 +135,7 @@
             // dateTimePickerEntrada
             // 
             this.dateTimePickerEntrada.Font = new System.Drawing.Font("Constantia", 12F);
-            this.dateTimePickerEntrada.Location = new System.Drawing.Point(498, 298);
+            this.dateTimePickerEntrada.Location = new System.Drawing.Point(505, 298);
             this.dateTimePickerEntrada.Name = "dateTimePickerEntrada";
             this.dateTimePickerEntrada.Size = new System.Drawing.Size(200, 27);
             this.dateTimePickerEntrada.TabIndex = 55;
@@ -145,7 +145,7 @@
             // 
             this.checkBoxRPlaca.AutoSize = true;
             this.checkBoxRPlaca.Font = new System.Drawing.Font("Constantia", 12F);
-            this.checkBoxRPlaca.Location = new System.Drawing.Point(158, 332);
+            this.checkBoxRPlaca.Location = new System.Drawing.Point(165, 332);
             this.checkBoxRPlaca.Name = "checkBoxRPlaca";
             this.checkBoxRPlaca.Size = new System.Drawing.Size(150, 23);
             this.checkBoxRPlaca.TabIndex = 54;
@@ -156,7 +156,7 @@
             // dateTimePickerEntrega
             // 
             this.dateTimePickerEntrega.Font = new System.Drawing.Font("Constantia", 12F);
-            this.dateTimePickerEntrega.Location = new System.Drawing.Point(497, 327);
+            this.dateTimePickerEntrega.Location = new System.Drawing.Point(504, 327);
             this.dateTimePickerEntrega.Name = "dateTimePickerEntrega";
             this.dateTimePickerEntrega.Size = new System.Drawing.Size(200, 27);
             this.dateTimePickerEntrega.TabIndex = 52;
@@ -165,7 +165,7 @@
             // 
             this.checkBoxRAdesivo.AutoSize = true;
             this.checkBoxRAdesivo.Font = new System.Drawing.Font("Constantia", 12F);
-            this.checkBoxRAdesivo.Location = new System.Drawing.Point(18, 332);
+            this.checkBoxRAdesivo.Location = new System.Drawing.Point(25, 332);
             this.checkBoxRAdesivo.Name = "checkBoxRAdesivo";
             this.checkBoxRAdesivo.Size = new System.Drawing.Size(148, 23);
             this.checkBoxRAdesivo.TabIndex = 51;
@@ -178,7 +178,7 @@
             this.comboBoxServico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxServico.Font = new System.Drawing.Font("Constantia", 12F);
             this.comboBoxServico.FormattingEnabled = true;
-            this.comboBoxServico.Location = new System.Drawing.Point(97, 138);
+            this.comboBoxServico.Location = new System.Drawing.Point(104, 138);
             this.comboBoxServico.MaxLength = 40;
             this.comboBoxServico.Name = "comboBoxServico";
             this.comboBoxServico.Size = new System.Drawing.Size(121, 27);
@@ -189,7 +189,7 @@
             // 
             this.textBoxTamanhoY.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBoxTamanhoY.Font = new System.Drawing.Font("Constantia", 12F);
-            this.textBoxTamanhoY.Location = new System.Drawing.Point(391, 138);
+            this.textBoxTamanhoY.Location = new System.Drawing.Point(398, 138);
             this.textBoxTamanhoY.MaxLength = 10;
             this.textBoxTamanhoY.Name = "textBoxTamanhoY";
             this.textBoxTamanhoY.Size = new System.Drawing.Size(49, 27);
@@ -198,7 +198,7 @@
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label8.Location = new System.Drawing.Point(365, 141);
+            this.label8.Location = new System.Drawing.Point(372, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(20, 19);
             this.label8.TabIndex = 48;
@@ -207,7 +207,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label7.Location = new System.Drawing.Point(498, 141);
+            this.label7.Location = new System.Drawing.Point(505, 141);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label7.Size = new System.Drawing.Size(97, 19);
@@ -218,7 +218,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label6.Location = new System.Drawing.Point(224, 141);
+            this.label6.Location = new System.Drawing.Point(231, 141);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 19);
             this.label6.TabIndex = 46;
@@ -229,7 +229,7 @@
             // 
             this.textBoxTamanhoX.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBoxTamanhoX.Font = new System.Drawing.Font("Constantia", 12F);
-            this.textBoxTamanhoX.Location = new System.Drawing.Point(309, 138);
+            this.textBoxTamanhoX.Location = new System.Drawing.Point(316, 138);
             this.textBoxTamanhoX.MaxLength = 10;
             this.textBoxTamanhoX.Name = "textBoxTamanhoX";
             this.textBoxTamanhoX.Size = new System.Drawing.Size(49, 27);
@@ -237,23 +237,23 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label5.Location = new System.Drawing.Point(14, 143);
+            this.label5.Location = new System.Drawing.Point(34, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 19);
             this.label5.TabIndex = 44;
             this.label5.Text = "Serviço:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Constantia", 12F);
             this.label3.Location = new System.Drawing.Point(530, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 19);
             this.label3.TabIndex = 41;
             this.label3.Text = "TEL 1:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxTelefone
             // 
@@ -267,13 +267,13 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Constantia", 12F);
             this.label2.Location = new System.Drawing.Point(272, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 19);
             this.label2.TabIndex = 39;
             this.label2.Text = "CPF/CNPJ:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxCPF
             // 
@@ -290,13 +290,13 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label1.Location = new System.Drawing.Point(14, 82);
+            this.label1.Location = new System.Drawing.Point(27, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 19);
             this.label1.TabIndex = 37;
             this.label1.Text = "Cliente:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxCliente
             // 
@@ -313,7 +313,7 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label10.Location = new System.Drawing.Point(364, 333);
+            this.label10.Location = new System.Drawing.Point(371, 333);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(127, 19);
             this.label10.TabIndex = 56;
@@ -323,7 +323,7 @@
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label9.Location = new System.Drawing.Point(365, 300);
+            this.label9.Location = new System.Drawing.Point(372, 300);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(127, 19);
             this.label9.TabIndex = 65;
@@ -344,13 +344,13 @@
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label15.Location = new System.Drawing.Point(14, 176);
+            this.label15.Location = new System.Drawing.Point(55, 171);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(43, 19);
             this.label15.TabIndex = 44;
             this.label15.Text = "Vias:";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // comboBox2
             // 
@@ -363,7 +363,7 @@
             "Azul",
             "Rosa",
             "Verde"});
-            this.comboBox2.Location = new System.Drawing.Point(97, 171);
+            this.comboBox2.Location = new System.Drawing.Point(104, 171);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(95, 27);
             this.comboBox2.TabIndex = 50;
@@ -371,7 +371,7 @@
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label16.Location = new System.Drawing.Point(193, 174);
+            this.label16.Location = new System.Drawing.Point(200, 174);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(21, 19);
             this.label16.TabIndex = 44;
@@ -388,7 +388,7 @@
             "Azul",
             "Rosa",
             "Verde"});
-            this.comboBox3.Location = new System.Drawing.Point(218, 171);
+            this.comboBox3.Location = new System.Drawing.Point(225, 171);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(95, 27);
             this.comboBox3.TabIndex = 50;
@@ -396,7 +396,7 @@
             // label17
             // 
             this.label17.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label17.Location = new System.Drawing.Point(315, 174);
+            this.label17.Location = new System.Drawing.Point(322, 174);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(21, 19);
             this.label17.TabIndex = 44;
@@ -413,7 +413,7 @@
             "Azul",
             "Rosa",
             "Verde"});
-            this.comboBox4.Location = new System.Drawing.Point(344, 171);
+            this.comboBox4.Location = new System.Drawing.Point(351, 171);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(95, 27);
             this.comboBox4.TabIndex = 50;
@@ -421,7 +421,7 @@
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label18.Location = new System.Drawing.Point(443, 174);
+            this.label18.Location = new System.Drawing.Point(450, 174);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(21, 19);
             this.label18.TabIndex = 44;
@@ -439,7 +439,7 @@
             "Azul",
             "Rosa",
             "Verde"});
-            this.comboBox5.Location = new System.Drawing.Point(472, 171);
+            this.comboBox5.Location = new System.Drawing.Point(479, 171);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(95, 27);
             this.comboBox5.TabIndex = 50;
@@ -447,7 +447,7 @@
             // label19
             // 
             this.label19.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label19.Location = new System.Drawing.Point(571, 176);
+            this.label19.Location = new System.Drawing.Point(578, 176);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(21, 19);
             this.label19.TabIndex = 44;
@@ -464,20 +464,20 @@
             "Azul",
             "Rosa",
             "Verde"});
-            this.comboBox6.Location = new System.Drawing.Point(602, 173);
+            this.comboBox6.Location = new System.Drawing.Point(609, 173);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(95, 27);
             this.comboBox6.TabIndex = 50;
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label20.Location = new System.Drawing.Point(14, 209);
+            this.label20.Location = new System.Drawing.Point(46, 209);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(52, 19);
             this.label20.TabIndex = 44;
             this.label20.Text = "Papel:";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // comboBoxPapel
             // 
@@ -491,7 +491,7 @@
             "Couchê 230g",
             "Autocotiativo",
             "Triplex"});
-            this.comboBoxPapel.Location = new System.Drawing.Point(97, 204);
+            this.comboBoxPapel.Location = new System.Drawing.Point(104, 204);
             this.comboBoxPapel.Name = "comboBoxPapel";
             this.comboBoxPapel.Size = new System.Drawing.Size(121, 27);
             this.comboBoxPapel.TabIndex = 50;
@@ -499,7 +499,7 @@
             // label21
             // 
             this.label21.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label21.Location = new System.Drawing.Point(238, 207);
+            this.label21.Location = new System.Drawing.Point(245, 207);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(38, 19);
             this.label21.TabIndex = 44;
@@ -516,7 +516,7 @@
             "1/1",
             "4/0",
             "4/4"});
-            this.comboBoxCor.Location = new System.Drawing.Point(282, 204);
+            this.comboBoxCor.Location = new System.Drawing.Point(289, 204);
             this.comboBoxCor.Name = "comboBoxCor";
             this.comboBoxCor.Size = new System.Drawing.Size(121, 27);
             this.comboBoxCor.TabIndex = 50;
@@ -524,13 +524,14 @@
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label22.Font = new System.Drawing.Font("Constantia", 12F);
-            this.label22.Location = new System.Drawing.Point(15, 242);
+            this.label22.Location = new System.Drawing.Point(21, 237);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(81, 19);
+            this.label22.Size = new System.Drawing.Size(77, 19);
             this.label22.TabIndex = 37;
             this.label22.Text = "Descrição:";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // textBoxDescricao
             // 
@@ -538,7 +539,7 @@
             this.textBoxDescricao.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.textBoxDescricao.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBoxDescricao.Font = new System.Drawing.Font("Constantia", 12F);
-            this.textBoxDescricao.Location = new System.Drawing.Point(97, 234);
+            this.textBoxDescricao.Location = new System.Drawing.Point(104, 234);
             this.textBoxDescricao.MaxLength = 110;
             this.textBoxDescricao.Name = "textBoxDescricao";
             this.textBoxDescricao.Size = new System.Drawing.Size(600, 27);
@@ -549,7 +550,7 @@
             // 
             this.checkBoxSAplicacao.AutoSize = true;
             this.checkBoxSAplicacao.Font = new System.Drawing.Font("Constantia", 12F);
-            this.checkBoxSAplicacao.Location = new System.Drawing.Point(158, 303);
+            this.checkBoxSAplicacao.Location = new System.Drawing.Point(165, 303);
             this.checkBoxSAplicacao.Name = "checkBoxSAplicacao";
             this.checkBoxSAplicacao.Size = new System.Drawing.Size(131, 23);
             this.checkBoxSAplicacao.TabIndex = 67;
@@ -568,7 +569,7 @@
             this.comboBoxDimensoes.Items.AddRange(new object[] {
             "mm",
             "cm"});
-            this.comboBoxDimensoes.Location = new System.Drawing.Point(447, 138);
+            this.comboBoxDimensoes.Location = new System.Drawing.Point(454, 138);
             this.comboBoxDimensoes.MaxLength = 40;
             this.comboBoxDimensoes.Name = "comboBoxDimensoes";
             this.comboBoxDimensoes.Size = new System.Drawing.Size(46, 27);
@@ -578,7 +579,7 @@
             // 
             this.labelTotal.AutoSize = true;
             this.labelTotal.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelTotal.Location = new System.Drawing.Point(15, 272);
+            this.labelTotal.Location = new System.Drawing.Point(22, 272);
             this.labelTotal.Name = "labelTotal";
             this.labelTotal.Size = new System.Drawing.Size(80, 19);
             this.labelTotal.TabIndex = 70;
@@ -588,7 +589,7 @@
             // 
             this.numericUpDownQuantidade.BackColor = System.Drawing.SystemColors.MenuBar;
             this.numericUpDownQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.numericUpDownQuantidade.Location = new System.Drawing.Point(601, 140);
+            this.numericUpDownQuantidade.Location = new System.Drawing.Point(608, 140);
             this.numericUpDownQuantidade.Name = "numericUpDownQuantidade";
             this.numericUpDownQuantidade.Size = new System.Drawing.Size(96, 26);
             this.numericUpDownQuantidade.TabIndex = 71;
@@ -601,7 +602,7 @@
             this.buttonProxServico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProxServico.Font = new System.Drawing.Font("Constantia", 9F);
             this.buttonProxServico.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.buttonProxServico.Location = new System.Drawing.Point(519, 201);
+            this.buttonProxServico.Location = new System.Drawing.Point(526, 201);
             this.buttonProxServico.Name = "buttonProxServico";
             this.buttonProxServico.Size = new System.Drawing.Size(103, 27);
             this.buttonProxServico.TabIndex = 101;
@@ -616,7 +617,7 @@
             this.buttonAntServico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAntServico.Font = new System.Drawing.Font("Constantia", 9F);
             this.buttonAntServico.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.buttonAntServico.Location = new System.Drawing.Point(409, 201);
+            this.buttonAntServico.Location = new System.Drawing.Point(416, 201);
             this.buttonAntServico.Name = "buttonAntServico";
             this.buttonAntServico.Size = new System.Drawing.Size(104, 27);
             this.buttonAntServico.TabIndex = 102;
@@ -646,7 +647,7 @@
             // 
             this.labelNumServico.AutoSize = true;
             this.labelNumServico.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNumServico.Location = new System.Drawing.Point(625, 209);
+            this.labelNumServico.Location = new System.Drawing.Point(632, 209);
             this.labelNumServico.Name = "labelNumServico";
             this.labelNumServico.Size = new System.Drawing.Size(73, 19);
             this.labelNumServico.TabIndex = 106;

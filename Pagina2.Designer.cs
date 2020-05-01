@@ -69,13 +69,13 @@
             // 
             // labelNovoCPF
             // 
-            this.labelNovoCPF.AutoSize = true;
             this.labelNovoCPF.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoCPF.Location = new System.Drawing.Point(15, 310);
+            this.labelNovoCPF.Location = new System.Drawing.Point(51, 310);
             this.labelNovoCPF.Name = "labelNovoCPF";
             this.labelNovoCPF.Size = new System.Drawing.Size(41, 19);
             this.labelNovoCPF.TabIndex = 127;
             this.labelNovoCPF.Text = "CPF:";
+            this.labelNovoCPF.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNovoCPF
             // 
@@ -89,13 +89,13 @@
             // 
             // labelNovoNome
             // 
-            this.labelNovoNome.AutoSize = true;
             this.labelNovoNome.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoNome.Location = new System.Drawing.Point(15, 262);
+            this.labelNovoNome.Location = new System.Drawing.Point(36, 262);
             this.labelNovoNome.Name = "labelNovoNome";
             this.labelNovoNome.Size = new System.Drawing.Size(56, 19);
             this.labelNovoNome.TabIndex = 125;
             this.labelNovoNome.Text = "Nome:";
+            this.labelNovoNome.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNovoNome
             // 
@@ -244,9 +244,8 @@
             // 
             // labelTelefone
             // 
-            this.labelTelefone.AutoSize = true;
             this.labelTelefone.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelTelefone.Location = new System.Drawing.Point(213, 122);
+            this.labelTelefone.Location = new System.Drawing.Point(217, 122);
             this.labelTelefone.Name = "labelTelefone";
             this.labelTelefone.Size = new System.Drawing.Size(74, 19);
             this.labelTelefone.TabIndex = 116;
@@ -255,13 +254,13 @@
             // 
             // labelCPF
             // 
-            this.labelCPF.AutoSize = true;
             this.labelCPF.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelCPF.Location = new System.Drawing.Point(15, 122);
+            this.labelCPF.Location = new System.Drawing.Point(51, 122);
             this.labelCPF.Name = "labelCPF";
             this.labelCPF.Size = new System.Drawing.Size(41, 19);
             this.labelCPF.TabIndex = 114;
             this.labelCPF.Text = "CPF:";
+            this.labelCPF.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxCPF
             // 
@@ -275,13 +274,13 @@
             // 
             // labelNome
             // 
-            this.labelNome.AutoSize = true;
             this.labelNome.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNome.Location = new System.Drawing.Point(15, 74);
+            this.labelNome.Location = new System.Drawing.Point(36, 74);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(56, 19);
             this.labelNome.TabIndex = 112;
             this.labelNome.Text = "Nome:";
+            this.labelNome.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBoxNome
             // 
@@ -315,9 +314,8 @@
             // 
             // labelNovoTelefone
             // 
-            this.labelNovoTelefone.AutoSize = true;
             this.labelNovoTelefone.Font = new System.Drawing.Font("Constantia", 12F);
-            this.labelNovoTelefone.Location = new System.Drawing.Point(213, 310);
+            this.labelNovoTelefone.Location = new System.Drawing.Point(217, 310);
             this.labelNovoTelefone.Name = "labelNovoTelefone";
             this.labelNovoTelefone.Size = new System.Drawing.Size(74, 19);
             this.labelNovoTelefone.TabIndex = 133;
