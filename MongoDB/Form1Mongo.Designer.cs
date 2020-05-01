@@ -38,9 +38,10 @@
             this.buttonPanfletos = new System.Windows.Forms.Button();
             this.buttonAdesivos = new System.Windows.Forms.Button();
             this.buttonBanners = new System.Windows.Forms.Button();
-            this.cartoes1 = new FormularioGrafica.MongoDB.Cartoes();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.buttonCadastrarI = new System.Windows.Forms.Button();
+            this.cartoes1 = new FormularioGrafica.MongoDB.Cartoes();
+            this.cadastrarImagens1 = new FormularioGrafica.MongoDB.CadastrarImagens();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@
             this.buttonRemover.BackColor = System.Drawing.Color.Green;
             this.buttonRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemover.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemover.Location = new System.Drawing.Point(494, 329);
+            this.buttonRemover.Location = new System.Drawing.Point(417, 488);
             this.buttonRemover.Name = "buttonRemover";
             this.buttonRemover.Size = new System.Drawing.Size(133, 34);
             this.buttonRemover.TabIndex = 146;
@@ -61,7 +62,7 @@
             this.buttonPesquisar.BackColor = System.Drawing.Color.Green;
             this.buttonPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPesquisar.Location = new System.Drawing.Point(651, 329);
+            this.buttonPesquisar.Location = new System.Drawing.Point(574, 488);
             this.buttonPesquisar.Name = "buttonPesquisar";
             this.buttonPesquisar.Size = new System.Drawing.Size(133, 34);
             this.buttonPesquisar.TabIndex = 145;
@@ -74,7 +75,7 @@
             this.buttonCadastrar.BackColor = System.Drawing.Color.Green;
             this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrar.Location = new System.Drawing.Point(651, 382);
+            this.buttonCadastrar.Location = new System.Drawing.Point(574, 541);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(133, 34);
             this.buttonCadastrar.TabIndex = 144;
@@ -87,7 +88,7 @@
             this.buttonAlterar.BackColor = System.Drawing.Color.Green;
             this.buttonAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAlterar.Location = new System.Drawing.Point(494, 382);
+            this.buttonAlterar.Location = new System.Drawing.Point(417, 541);
             this.buttonAlterar.Name = "buttonAlterar";
             this.buttonAlterar.Size = new System.Drawing.Size(133, 34);
             this.buttonAlterar.TabIndex = 143;
@@ -96,7 +97,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(830, 303);
+            this.richTextBox1.Location = new System.Drawing.Point(753, 462);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(338, 147);
             this.richTextBox1.TabIndex = 149;
@@ -216,16 +217,6 @@
             this.buttonBanners.UseVisualStyleBackColor = false;
             this.buttonBanners.Click += new System.EventHandler(this.buttonBanners_Click);
             // 
-            // cartoes1
-            // 
-            this.cartoes1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.cartoes1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cartoes1.Location = new System.Drawing.Point(0, 0);
-            this.cartoes1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cartoes1.Name = "cartoes1";
-            this.cartoes1.Size = new System.Drawing.Size(1200, 692);
-            this.cartoes1.TabIndex = 167;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
@@ -252,6 +243,27 @@
             this.buttonCadastrarI.UseVisualStyleBackColor = false;
             this.buttonCadastrarI.Click += new System.EventHandler(this.buttonCadastrarI_Click);
             // 
+            // cartoes1
+            // 
+            this.cartoes1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.cartoes1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cartoes1.Location = new System.Drawing.Point(0, 0);
+            this.cartoes1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cartoes1.Name = "cartoes1";
+            this.cartoes1.Size = new System.Drawing.Size(1200, 692);
+            this.cartoes1.TabIndex = 167;
+            // 
+            // cadastrarImagens1
+            // 
+            this.cadastrarImagens1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.cadastrarImagens1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cadastrarImagens1.Location = new System.Drawing.Point(0, 0);
+            this.cadastrarImagens1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cadastrarImagens1.Name = "cadastrarImagens1";
+            this.cadastrarImagens1.Size = new System.Drawing.Size(1200, 692);
+            this.cadastrarImagens1.TabIndex = 169;
+            this.cadastrarImagens1.Visible = false;
+            // 
             // Form1Mongo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -274,6 +286,7 @@
             this.Controls.Add(this.buttonCadastrar);
             this.Controls.Add(this.buttonAlterar);
             this.Controls.Add(this.cartoes1);
+            this.Controls.Add(this.cadastrarImagens1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1Mongo";
@@ -303,5 +316,6 @@
         private System.Windows.Forms.Button buttonBanners;
         private Cartoes cartoes1;
         private System.Windows.Forms.Button buttonCadastrarI;
+        private CadastrarImagens cadastrarImagens1;
     }
 }

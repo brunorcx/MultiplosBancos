@@ -9,18 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FormularioGrafica.MongoDB {
+
     public partial class Cartoes : UserControl {
+        private DBConnect dBConnect;
+
         public Cartoes() {
             InitializeComponent();
-
         }
 
-        private void button1_Click(object sender, EventArgs e) {
-
-        }
-
-        private void Cartoes_Load(object sender, EventArgs e) {
-
+        public void AtualizarImagens() {
+            Image image;
+            dBConnect = new DBConnect();
+            image = dBConnect.buscarImagem("Cartao2_inicial.png");
+            pictureBox2.Image = image;
         }
     }
 }

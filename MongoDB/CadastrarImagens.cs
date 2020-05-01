@@ -31,10 +31,11 @@ namespace FormularioGrafica.MongoDB {
 
             if (openFileDialog.ShowDialog() == DialogResult.OK) {
                 //Get the path of specified file
-                textBoxNome.Text = openFileDialog.FileName;
+                textBoxNome.Text = openFileDialog.SafeFileName;
 
                 //Read the contents of the file into a stream
                 var fileStream = openFileDialog.OpenFile();
+
                 conteudo = ReadFully(fileStream);
 
             }

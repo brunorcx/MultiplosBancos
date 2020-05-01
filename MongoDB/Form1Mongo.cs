@@ -24,9 +24,9 @@ namespace FormularioGrafica.MongoDB {
         }
 
         private void backgroundWorkerMongo_DoWork(object sender, DoWorkEventArgs e) {
-            dBConnect = new DBConnect();
-            listaDatabases = dBConnect.ListarDatabases();
-
+            dBConnect = new DBConnect(); //Remover essa conexão
+            listaDatabases = dBConnect.ListarDatabases();//Remover listar databases
+            cartoes1.AtualizarImagens();
         }
 
         private void Form1Mongo_FormClosed(object sender, FormClosedEventArgs e) {
@@ -59,6 +59,10 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 0;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            cartoes1.Show();
+            cadastrarImagens1.Hide();
+
+            //cartoes1.AtualizarImagens();
         }
 
         private void buttonPanfletos_Click(object sender, EventArgs e) {
@@ -96,7 +100,7 @@ namespace FormularioGrafica.MongoDB {
             buttonCadastrarI.FlatAppearance.BorderSize = 1;
 
             cartoes1.Hide();
-
+            cadastrarImagens1.Show();
         }
 
         private void textBoxBusca_KeyUp(object sender, KeyEventArgs e) {

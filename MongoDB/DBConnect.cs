@@ -3,6 +3,8 @@ using MongoDB.Driver;
 using MongoDB.Driver.GridFS;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -74,6 +76,26 @@ namespace FormularioGrafica.MongoDB {
 
         public BsonArray Busca(BsonArray vetorDocumentos) {
             return vetorDocumentos;
+
+        }
+
+        public Image buscarImagem(string nome) {
+            Image image;
+            GridFSBucket bucket = new GridFSBucket(database, new GridFSBucketOptions {
+                BucketName = "imagens",// Bucket name tem que ser igual
+                WriteConcern = WriteConcern.WMajority,
+                ReadPreference = ReadPreference.Secondary
+            });
+            // var filter = Builders<GridFSFileInfo>.Filter.Eq(x => x.Filename, "Cartao2_inicial.png");
+            // var buscal = bucket.Find(filter);
+            var bytes = bucket.DownloadAsBytesByName(nome);
+            image = Image.FromStream(new System.IO.MemoryStream(bytes));
+
+            //using (image = Image.FromStream(new System.IO.MemoryStream(bytes))) {
+            //    image.Save("output.jpg", ImageFormat.Png);  // Or Png
+            //}
+
+            return image;
 
         }
 
