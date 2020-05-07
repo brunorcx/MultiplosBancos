@@ -66,7 +66,7 @@ namespace FormularioGrafica.MongoDB {
             collection.InsertOne(bsonElements);
         }
 
-        public void InserirImagem(string nome, byte[] conteudo) {
+        public BsonObjectId InserirImagem(string nome, byte[] conteudo) {
             var bucket = new GridFSBucket(database, new GridFSBucketOptions {
                 BucketName = "imagens",
                 //ChunkSizeBytes = 1048576, 1MB
@@ -74,6 +74,8 @@ namespace FormularioGrafica.MongoDB {
                 ReadPreference = ReadPreference.Secondary
             });
             var id = bucket.UploadFromBytes(nome, conteudo);
+
+            return id;
             //result = Convert.ToByte(number);
         }
 

@@ -136,6 +136,7 @@
             this.buttonProximo.TabIndex = 10;
             this.buttonProximo.Text = "Próximo";
             this.buttonProximo.UseVisualStyleBackColor = true;
+            this.buttonProximo.Click += new System.EventHandler(this.buttonProximo_Click);
             // 
             // buttonAnterior
             // 
@@ -146,6 +147,7 @@
             this.buttonAnterior.TabIndex = 11;
             this.buttonAnterior.Text = "Anterior";
             this.buttonAnterior.UseVisualStyleBackColor = true;
+            this.buttonAnterior.Click += new System.EventHandler(this.buttonAnterior_Click);
             // 
             // label1
             // 
