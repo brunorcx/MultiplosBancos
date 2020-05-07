@@ -59,9 +59,12 @@ namespace FormularioGrafica.MongoDB {
                         { "y", 102 }
                     }}
             };
-
             collection.InsertOne(document);
         }// fim inserir
+
+        public void InserirDocumento(BsonDocument bsonElements) {
+            collection.InsertOne(bsonElements);
+        }
 
         public void InserirImagem(string nome, byte[] conteudo) {
             var bucket = new GridFSBucket(database, new GridFSBucketOptions {

@@ -61,6 +61,9 @@ namespace FormularioGrafica.MongoDB {
 
             cartoes1.Show();
             cadastrarImagens1.Hide();
+            textBoxBusca.Show();
+            button2.Show();
+            pictureBox4.Show();
 
             //cartoes1.AtualizarImagens();
         }
@@ -72,6 +75,10 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 0;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            textBoxBusca.Show();
+            button2.Show();
+            pictureBox4.Show();
+
         }
 
         private void buttonAdesivos_Click(object sender, EventArgs e) {
@@ -81,6 +88,10 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 0;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            textBoxBusca.Show();
+            button2.Show();
+            pictureBox4.Show();
+
         }
 
         private void buttonBanners_Click(object sender, EventArgs e) {
@@ -89,6 +100,10 @@ namespace FormularioGrafica.MongoDB {
             buttonAdesivos.FlatAppearance.BorderSize = 0;
             buttonBanners.FlatAppearance.BorderSize = 1;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
+
+            textBoxBusca.Show();
+            button2.Show();
+            pictureBox4.Show();
 
         }
 
@@ -101,6 +116,9 @@ namespace FormularioGrafica.MongoDB {
 
             cartoes1.Hide();
             cadastrarImagens1.Show();
+            textBoxBusca.Hide();
+            button2.Hide();
+            pictureBox4.Hide();
         }
 
         private void textBoxBusca_KeyUp(object sender, KeyEventArgs e) {

@@ -46,6 +46,10 @@ namespace FormularioGrafica.MongoDB {
             if (dBConnect.ListarDatabases().Count != 0) // verificar conexão
                 dBConnect.InserirImagem(textBoxNome.Text, conteudo);
         }
+
+        private void CadastrarImagens_Load(object sender, EventArgs e) {
+
+        }
     }
 }
 

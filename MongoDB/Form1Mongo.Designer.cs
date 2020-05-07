@@ -50,7 +50,7 @@
             this.buttonRemover.BackColor = System.Drawing.Color.Green;
             this.buttonRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemover.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemover.Location = new System.Drawing.Point(417, 488);
+            this.buttonRemover.Location = new System.Drawing.Point(658, 488);
             this.buttonRemover.Name = "buttonRemover";
             this.buttonRemover.Size = new System.Drawing.Size(133, 34);
             this.buttonRemover.TabIndex = 146;
@@ -62,7 +62,7 @@
             this.buttonPesquisar.BackColor = System.Drawing.Color.Green;
             this.buttonPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPesquisar.Location = new System.Drawing.Point(574, 488);
+            this.buttonPesquisar.Location = new System.Drawing.Point(815, 488);
             this.buttonPesquisar.Name = "buttonPesquisar";
             this.buttonPesquisar.Size = new System.Drawing.Size(133, 34);
             this.buttonPesquisar.TabIndex = 145;
@@ -75,7 +75,7 @@
             this.buttonCadastrar.BackColor = System.Drawing.Color.Green;
             this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrar.Location = new System.Drawing.Point(574, 541);
+            this.buttonCadastrar.Location = new System.Drawing.Point(815, 541);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(133, 34);
             this.buttonCadastrar.TabIndex = 144;
@@ -88,7 +88,7 @@
             this.buttonAlterar.BackColor = System.Drawing.Color.Green;
             this.buttonAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAlterar.Location = new System.Drawing.Point(417, 541);
+            this.buttonAlterar.Location = new System.Drawing.Point(658, 541);
             this.buttonAlterar.Name = "buttonAlterar";
             this.buttonAlterar.Size = new System.Drawing.Size(133, 34);
             this.buttonAlterar.TabIndex = 143;
@@ -97,7 +97,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(753, 462);
+            this.richTextBox1.Location = new System.Drawing.Point(994, 462);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(338, 147);
             this.richTextBox1.TabIndex = 149;
