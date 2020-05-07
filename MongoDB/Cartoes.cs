@@ -20,8 +20,17 @@ namespace FormularioGrafica.MongoDB {
         public void AtualizarImagens() {
             Image image;
             dBConnect = new DBConnect();
-            image = dBConnect.buscarImagem("Cartao2_inicial.png");
+            image = dBConnect.BuscarImagem("Cartao2_inicial.png");
             pictureBox2.Image = image;
+
+            image = dBConnect.BuscarImagem("Cartao3_inicial.png");
+            pictureBox3.Image = image;
+
+            image = dBConnect.BuscarImagem("Cartao4_inicial.png");
+            pictureBox4.Image = image;
+
+            image = dBConnect.BuscarImagem("Cartao5_inicial.png");
+            pictureBox5.Image = image;
         }
     }
 }

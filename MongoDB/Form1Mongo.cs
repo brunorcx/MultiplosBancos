@@ -33,23 +33,11 @@ namespace FormularioGrafica.MongoDB {
             Application.Exit();
         }
 
-        private void buttonPesquisar_Click(object sender, EventArgs e) {
-            if (listaDatabases.Count != 0) {
-                foreach (var database in listaDatabases) {
-                    richTextBox1.Text += database.ToString() + "\n";
-                }
-            }
-        }
-
         private void backgroundWorkerMongo_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
             if (listaDatabases.Count != 0) {
                 labelStatus.ForeColor = Color.DodgerBlue;
                 labelStatus.Text = "Status: Conectado";
             }
-        }
-
-        private void buttonCadastrar_Click(object sender, EventArgs e) {
-            dBConnect.InserirItem();
         }
 
         private void buttonCartao_Click(object sender, EventArgs e) {

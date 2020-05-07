@@ -79,7 +79,6 @@ namespace FormularioGrafica.MongoDB {
                 textBoxValor.Text = document.Elements.ElementAt(numCampo).Value.AsString;
             }
             catch (Exception) {
-                throw;
             }
             labelCampo.Text = "Campo " + (numCampo + 1).ToString();
             labelValor.Text = "Valor " + (numCampo + 1).ToString();

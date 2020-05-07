@@ -81,10 +81,9 @@ namespace FormularioGrafica.MongoDB {
 
         public BsonArray Busca(BsonArray vetorDocumentos) {
             return vetorDocumentos;
-
         }
 
-        public Image buscarImagem(string nome) {
+        public Image BuscarImagem(string nome) {
             Image image;
             GridFSBucket bucket = new GridFSBucket(database, new GridFSBucketOptions {
                 BucketName = "imagens",// Bucket name tem que ser igual
@@ -93,7 +92,8 @@ namespace FormularioGrafica.MongoDB {
             });
             // var filter = Builders<GridFSFileInfo>.Filter.Eq(x => x.Filename, "Cartao2_inicial.png");
             // var buscal = bucket.Find(filter);
-            var bytes = bucket.DownloadAsBytesByName(nome);
+
+            var bytes = bucket.DownloadAsBytesByName(nome); // CASO NÃO ENCONTRE DARÁ ERRO
             image = Image.FromStream(new System.IO.MemoryStream(bytes));
 
             //using (image = Image.FromStream(new System.IO.MemoryStream(bytes))) {

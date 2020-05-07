@@ -24,11 +24,6 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1Mongo));
-            this.buttonRemover = new System.Windows.Forms.Button();
-            this.buttonPesquisar = new System.Windows.Forms.Button();
-            this.buttonCadastrar = new System.Windows.Forms.Button();
-            this.buttonAlterar = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.backgroundWorkerMongo = new System.ComponentModel.BackgroundWorker();
             this.labelStatus = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -44,64 +39,6 @@
             this.cadastrarImagens1 = new FormularioGrafica.MongoDB.CadastrarImagens();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
-            // 
-            // buttonRemover
-            // 
-            this.buttonRemover.BackColor = System.Drawing.Color.Green;
-            this.buttonRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRemover.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemover.Location = new System.Drawing.Point(658, 488);
-            this.buttonRemover.Name = "buttonRemover";
-            this.buttonRemover.Size = new System.Drawing.Size(133, 34);
-            this.buttonRemover.TabIndex = 146;
-            this.buttonRemover.Text = "Remover";
-            this.buttonRemover.UseVisualStyleBackColor = false;
-            // 
-            // buttonPesquisar
-            // 
-            this.buttonPesquisar.BackColor = System.Drawing.Color.Green;
-            this.buttonPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPesquisar.Location = new System.Drawing.Point(815, 488);
-            this.buttonPesquisar.Name = "buttonPesquisar";
-            this.buttonPesquisar.Size = new System.Drawing.Size(133, 34);
-            this.buttonPesquisar.TabIndex = 145;
-            this.buttonPesquisar.Text = "Pesquisar";
-            this.buttonPesquisar.UseVisualStyleBackColor = false;
-            this.buttonPesquisar.Click += new System.EventHandler(this.buttonPesquisar_Click);
-            // 
-            // buttonCadastrar
-            // 
-            this.buttonCadastrar.BackColor = System.Drawing.Color.Green;
-            this.buttonCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrar.Location = new System.Drawing.Point(815, 541);
-            this.buttonCadastrar.Name = "buttonCadastrar";
-            this.buttonCadastrar.Size = new System.Drawing.Size(133, 34);
-            this.buttonCadastrar.TabIndex = 144;
-            this.buttonCadastrar.Text = "Cadastrar";
-            this.buttonCadastrar.UseVisualStyleBackColor = false;
-            this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
-            // 
-            // buttonAlterar
-            // 
-            this.buttonAlterar.BackColor = System.Drawing.Color.Green;
-            this.buttonAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAlterar.Location = new System.Drawing.Point(658, 541);
-            this.buttonAlterar.Name = "buttonAlterar";
-            this.buttonAlterar.Size = new System.Drawing.Size(133, 34);
-            this.buttonAlterar.TabIndex = 143;
-            this.buttonAlterar.Text = "Alterar";
-            this.buttonAlterar.UseVisualStyleBackColor = false;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(994, 462);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(338, 147);
-            this.richTextBox1.TabIndex = 149;
-            this.richTextBox1.Text = "";
             // 
             // backgroundWorkerMongo
             // 
@@ -280,11 +217,6 @@
             this.Controls.Add(this.textBoxBusca);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.buttonRemover);
-            this.Controls.Add(this.buttonPesquisar);
-            this.Controls.Add(this.buttonCadastrar);
-            this.Controls.Add(this.buttonAlterar);
             this.Controls.Add(this.cartoes1);
             this.Controls.Add(this.cadastrarImagens1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -299,11 +231,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button buttonRemover;
-        private System.Windows.Forms.Button buttonPesquisar;
-        private System.Windows.Forms.Button buttonCadastrar;
-        private System.Windows.Forms.Button buttonAlterar;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorkerMongo;
         private System.Windows.Forms.Label labelStatus;
         private System.Windows.Forms.Button button1;
