@@ -26,7 +26,12 @@ namespace FormularioGrafica.MongoDB {
         private void backgroundWorkerMongo_DoWork(object sender, DoWorkEventArgs e) {
             dBConnect = new DBConnect(); //Remover essa conexão
             listaDatabases = dBConnect.ListarDatabases();//Remover listar databases
-            cartoes1.AtualizarImagens();
+            try {
+                cartoes1.AtualizarImagens();
+            }
+            catch (Exception) {
+                MessageBox.Show("Não foi possível carregar as imagens do banco");
+            }
         }
 
         private void Form1Mongo_FormClosed(object sender, FormClosedEventArgs e) {
@@ -48,6 +53,9 @@ namespace FormularioGrafica.MongoDB {
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
             cartoes1.Show();
+            panfletos1.Hide();
+            adesivos1.Hide();
+            banners1.Hide();
             cadastrarImagens1.Hide();
             textBoxBusca.Show();
             button2.Show();
@@ -63,9 +71,16 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 0;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            cartoes1.Hide();
+            panfletos1.Show();
+            adesivos1.Hide();
+            banners1.Hide();
+            cadastrarImagens1.Hide();
             textBoxBusca.Show();
             button2.Show();
             pictureBox4.Show();
+
+            panfletos1.CarregarPanfletos();
 
         }
 
@@ -76,10 +91,16 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 0;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            cartoes1.Hide();
+            panfletos1.Hide();
+            adesivos1.Show();
+            banners1.Hide();
+            cadastrarImagens1.Hide();
             textBoxBusca.Show();
             button2.Show();
             pictureBox4.Show();
 
+            adesivos1.CarregarAdesivos();
         }
 
         private void buttonBanners_Click(object sender, EventArgs e) {
@@ -89,9 +110,16 @@ namespace FormularioGrafica.MongoDB {
             buttonBanners.FlatAppearance.BorderSize = 1;
             buttonCadastrarI.FlatAppearance.BorderSize = 0;
 
+            cartoes1.Hide();
+            panfletos1.Hide();
+            adesivos1.Hide();
+            banners1.Show();
+            cadastrarImagens1.Hide();
             textBoxBusca.Show();
             button2.Show();
             pictureBox4.Show();
+
+            banners1.CarregarBanners();
 
         }
 
@@ -103,6 +131,9 @@ namespace FormularioGrafica.MongoDB {
             buttonCadastrarI.FlatAppearance.BorderSize = 1;
 
             cartoes1.Hide();
+            panfletos1.Hide();
+            adesivos1.Hide();
+            banners1.Hide();
             cadastrarImagens1.Show();
             textBoxBusca.Hide();
             button2.Hide();

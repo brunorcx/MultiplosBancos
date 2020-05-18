@@ -1,5 +1,5 @@
 ﻿namespace FormularioGrafica.MongoDB {
-    partial class Cartoes {
+    partial class Adesivos {
         /// <summary> 
         /// Variável de designer necessária.
         /// </summary>
@@ -23,7 +23,7 @@
         /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent() {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cartoes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adesivos));
             this.pictureBox0 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -35,7 +35,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.pictureBoxDetalhes = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox0)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -46,7 +45,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDetalhes)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox0
@@ -56,7 +54,7 @@
             this.pictureBox0.Name = "pictureBox0";
             this.pictureBox0.Size = new System.Drawing.Size(1064, 121);
             this.pictureBox0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox0.TabIndex = 0;
+            this.pictureBox0.TabIndex = 2;
             this.pictureBox0.TabStop = false;
             // 
             // tableLayoutPanel1
@@ -81,7 +79,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(682, 286);
-            this.tableLayoutPanel1.TabIndex = 4;
+            this.tableLayoutPanel1.TabIndex = 6;
             // 
             // pictureBox8
             // 
@@ -178,28 +176,20 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             // 
-            // pictureBoxDetalhes
+            // backgroundWorker1
             // 
-            this.pictureBoxDetalhes.Enabled = false;
-            this.pictureBoxDetalhes.Location = new System.Drawing.Point(41, 350);
-            this.pictureBoxDetalhes.Name = "pictureBoxDetalhes";
-            this.pictureBoxDetalhes.Size = new System.Drawing.Size(85, 69);
-            this.pictureBoxDetalhes.TabIndex = 5;
-            this.pictureBoxDetalhes.TabStop = false;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
-            // Cartoes
+            // Adesivos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.Controls.Add(this.pictureBoxDetalhes);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.pictureBox0);
-            this.Name = "Cartoes";
+            this.Name = "Adesivos";
             this.Size = new System.Drawing.Size(1080, 731);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox0)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -211,7 +201,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDetalhes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -220,7 +209,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox0;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -228,7 +216,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.PictureBox pictureBoxDetalhes;
     }
 }

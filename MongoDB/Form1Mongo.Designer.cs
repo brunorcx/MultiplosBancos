@@ -33,10 +33,13 @@
             this.buttonPanfletos = new System.Windows.Forms.Button();
             this.buttonAdesivos = new System.Windows.Forms.Button();
             this.buttonBanners = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.buttonCadastrarI = new System.Windows.Forms.Button();
             this.cartoes1 = new FormularioGrafica.MongoDB.Cartoes();
             this.cadastrarImagens1 = new FormularioGrafica.MongoDB.CadastrarImagens();
+            this.panfletos1 = new FormularioGrafica.MongoDB.Panfletos();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.adesivos1 = new FormularioGrafica.MongoDB.Adesivos();
+            this.banners1 = new FormularioGrafica.MongoDB.Banners();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +54,7 @@
             this.labelStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.labelStatus.Font = new System.Drawing.Font("Constantia", 12F);
             this.labelStatus.ForeColor = System.Drawing.Color.Crimson;
-            this.labelStatus.Location = new System.Drawing.Point(142, 39);
+            this.labelStatus.Location = new System.Drawing.Point(1183, 11);
             this.labelStatus.Name = "labelStatus";
             this.labelStatus.Size = new System.Drawing.Size(158, 19);
             this.labelStatus.TabIndex = 150;
@@ -154,17 +157,6 @@
             this.buttonBanners.UseVisualStyleBackColor = false;
             this.buttonBanners.Click += new System.EventHandler(this.buttonBanners_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(135, 6);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 161;
-            this.pictureBox4.TabStop = false;
-            // 
             // buttonCadastrarI
             // 
             this.buttonCadastrarI.BackColor = System.Drawing.Color.Green;
@@ -201,6 +193,47 @@
             this.cadastrarImagens1.TabIndex = 169;
             this.cadastrarImagens1.Visible = false;
             // 
+            // panfletos1
+            // 
+            this.panfletos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.panfletos1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panfletos1.Location = new System.Drawing.Point(0, 0);
+            this.panfletos1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panfletos1.Name = "panfletos1";
+            this.panfletos1.Size = new System.Drawing.Size(1200, 692);
+            this.panfletos1.TabIndex = 170;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(135, 6);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 161;
+            this.pictureBox4.TabStop = false;
+            // 
+            // adesivos1
+            // 
+            this.adesivos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.adesivos1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.adesivos1.Location = new System.Drawing.Point(0, 0);
+            this.adesivos1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.adesivos1.Name = "adesivos1";
+            this.adesivos1.Size = new System.Drawing.Size(1200, 692);
+            this.adesivos1.TabIndex = 171;
+            // 
+            // banners1
+            // 
+            this.banners1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.banners1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.banners1.Location = new System.Drawing.Point(0, 0);
+            this.banners1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.banners1.Name = "banners1";
+            this.banners1.Size = new System.Drawing.Size(1200, 692);
+            this.banners1.TabIndex = 172;
+            // 
             // Form1Mongo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -219,6 +252,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cartoes1);
             this.Controls.Add(this.cadastrarImagens1);
+            this.Controls.Add(this.panfletos1);
+            this.Controls.Add(this.adesivos1);
+            this.Controls.Add(this.banners1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1Mongo";
@@ -244,5 +280,8 @@
         private Cartoes cartoes1;
         private System.Windows.Forms.Button buttonCadastrarI;
         private CadastrarImagens cadastrarImagens1;
+        private Panfletos panfletos1;
+        private Adesivos adesivos1;
+        private Banners banners1;
     }
 }

@@ -23,6 +23,12 @@ namespace FormularioGrafica.MongoDB {
             collection = database.GetCollection<BsonDocument>("testeCollection");
         }
 
+        public DBConnect(string imagens) {
+            dbClient = new MongoClient("mongodb://admin:admin123@clustermonline-shard-00-00-zd9mu.mongodb.net:27017,clustermonline-shard-00-01-zd9mu.mongodb.net:27017,clustermonline-shard-00-02-zd9mu.mongodb.net:27017/test?ssl=true&replicaSet=ClusterMOnline-shard-0&authSource=admin&retryWrites=true&w=majority");
+            database = dbClient.GetDatabase("testeDatabase");
+            collection = database.GetCollection<BsonDocument>(imagens);
+        }
+
         public List<object> ListarDatabases() {
             List<object> listaTemp = new List<object>();
 
@@ -66,7 +72,7 @@ namespace FormularioGrafica.MongoDB {
             collection.InsertOne(bsonElements);
         }
 
-        public BsonObjectId InserirImagem(string nome, byte[] conteudo) {
+        public ObjectId InserirImagem(string nome, byte[] conteudo) {
             var bucket = new GridFSBucket(database, new GridFSBucketOptions {
                 BucketName = "imagens",
                 //ChunkSizeBytes = 1048576, 1MB
@@ -77,6 +83,23 @@ namespace FormularioGrafica.MongoDB {
 
             return id;
             //result = Convert.ToByte(number);
+        }
+
+        public ObjectId InserirImagem(string nome, byte[] conteudo, BsonDocument documento) {
+            var bucket = new GridFSBucket(database, new GridFSBucketOptions {
+                BucketName = "imagens",
+                //ChunkSizeBytes = 1048576, 1MB
+                WriteConcern = WriteConcern.WMajority,
+                ReadPreference = ReadPreference.Secondary
+            });
+
+            var options = new GridFSUploadOptions {
+                Metadata = documento
+            };
+
+            var id = bucket.UploadFromBytes(nome, conteudo, options);
+
+            return id;
         }
 
         public BsonArray Busca(BsonArray vetorDocumentos) {
@@ -103,6 +126,17 @@ namespace FormularioGrafica.MongoDB {
             return image;
 
         }
+
+        public void updateDocumento(ObjectId id, BsonDocument documento) {
+            var filter = Builders<BsonDocument>.Filter.Eq("id", id);
+            //var update = Builders<BsonDocument>.Update.Set(documento.First().Name, documento.First().Value);
+            //collection.UpdateOne(filter, documento);
+            collection.UpdateOneAsync(filter, documento);
+        }
+
+        //public BsonDocument buscarCampos() {
+        //    ObjectId id = collection.Find()
+        // }
 
     }
 }

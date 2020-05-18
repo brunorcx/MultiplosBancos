@@ -134,6 +134,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MongoDB\Adesivos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MongoDB\Adesivos.Designer.cs">
+      <DependentUpon>Adesivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MongoDB\Banners.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MongoDB\Banners.Designer.cs">
+      <DependentUpon>Banners.cs</DependentUpon>
+    </Compile>
     <Compile Include="MongoDB\CadastrarImagens.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -152,6 +164,12 @@
     </Compile>
     <Compile Include="MongoDB\Form1Mongo.Designer.cs">
       <DependentUpon>Form1Mongo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MongoDB\Panfletos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MongoDB\Panfletos.Designer.cs">
+      <DependentUpon>Panfletos.cs</DependentUpon>
     </Compile>
     <Compile Include="Pagina1.cs">
       <SubType>UserControl</SubType>
@@ -187,6 +205,12 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MongoDB\Adesivos.resx">
+      <DependentUpon>Adesivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MongoDB\Banners.resx">
+      <DependentUpon>Banners.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MongoDB\CadastrarImagens.resx">
       <DependentUpon>CadastrarImagens.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MongoDB\Form1Mongo.resx">
       <DependentUpon>Form1Mongo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MongoDB\Panfletos.resx">
+      <DependentUpon>Panfletos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pagina1.resx">
       <DependentUpon>Pagina1.cs</DependentUpon>

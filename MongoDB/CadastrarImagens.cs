@@ -52,15 +52,22 @@ namespace FormularioGrafica.MongoDB {
                     MessageBox.Show("Por favor preencha o Campo e o valor.");
             }
             else {
-                dBConnect = new DBConnect();
+                dBConnect = new DBConnect("imagens.files");
                 if (dBConnect.ListarDatabases().Count != 0) { // verificar conexão
-                    var id = dBConnect.InserirImagem(textBoxNome.Text, conteudo);
-                    document.Add("ID", id);
-                    dBConnect.InserirDocumento(document);
+                    var id = dBConnect.InserirImagem(textBoxNome.Text, conteudo, document);
+                    //document.Add("ID", id);
+                    //dBConnect.InserirDocumento(document);
+                    //dBConnect.updateDocumento(id, document);
                 }
                 MessageBox.Show("Imagem Cadastrada com sucesso!");
+
                 //Limpar documento
                 document = new BsonDocument();
+                textBoxCampo.Clear();
+                textBoxValor.Clear();
+                labelCampo.Text = "Campo 1";
+                labelValor.Text = "Valor 1";
+                numCampo = 0;
             }
         }
 
