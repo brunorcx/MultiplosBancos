@@ -23,10 +23,10 @@ namespace FormularioGrafica.MongoDB {
             collection = database.GetCollection<BsonDocument>("testeCollection");
         }
 
-        public DBConnect(string imagens) {
+        public DBConnect(string collectionS) {
             dbClient = new MongoClient("mongodb://admin:admin123@clustermonline-shard-00-00-zd9mu.mongodb.net:27017,clustermonline-shard-00-01-zd9mu.mongodb.net:27017,clustermonline-shard-00-02-zd9mu.mongodb.net:27017/test?ssl=true&replicaSet=ClusterMOnline-shard-0&authSource=admin&retryWrites=true&w=majority");
             database = dbClient.GetDatabase("testeDatabase");
-            collection = database.GetCollection<BsonDocument>(imagens);
+            collection = database.GetCollection<BsonDocument>(collectionS);
         }
 
         public List<object> ListarDatabases() {
@@ -102,8 +102,21 @@ namespace FormularioGrafica.MongoDB {
             return id;
         }
 
-        public BsonArray Busca(BsonArray vetorDocumentos) {
-            return vetorDocumentos;
+        public BsonDocument BuscaDocumento(string nome) {
+            var filter = Builders<BsonDocument>.Filter.Eq("filename", nome);
+            //var projection = Builders<BsonDocument>.Projection.Include("filename");
+            BsonDocument documento;
+            try {
+                //documento = collection.Find(filter).Project(projection).First();
+                documento = collection.Find(filter).First();
+            }
+            catch (Exception) {
+                documento = collection.Find(filter).First();
+
+                throw;
+            }
+            //Se documento for null inicializar
+            return documento;
         }
 
         public Image BuscarImagem(string nome) {
