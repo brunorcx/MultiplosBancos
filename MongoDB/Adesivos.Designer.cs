@@ -35,6 +35,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.pictureBoxDetalhes = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox0)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -45,6 +46,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDetalhes)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox0
@@ -140,6 +142,9 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox4_MouseEnter);
+            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
             // 
             // pictureBox3
             // 
@@ -152,6 +157,9 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
             // 
             // pictureBox2
             // 
@@ -164,6 +172,9 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -176,17 +187,30 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             // 
             // backgroundWorker1
             // 
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
+            // pictureBoxDetalhes
+            // 
+            this.pictureBoxDetalhes.Enabled = false;
+            this.pictureBoxDetalhes.Location = new System.Drawing.Point(22, 316);
+            this.pictureBoxDetalhes.Name = "pictureBoxDetalhes";
+            this.pictureBoxDetalhes.Size = new System.Drawing.Size(85, 56);
+            this.pictureBoxDetalhes.TabIndex = 14;
+            this.pictureBoxDetalhes.TabStop = false;
+            // 
             // Adesivos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.Controls.Add(this.pictureBoxDetalhes);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.pictureBox0);
             this.Name = "Adesivos";
@@ -201,6 +225,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDetalhes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -218,5 +243,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.PictureBox pictureBoxDetalhes;
     }
 }
